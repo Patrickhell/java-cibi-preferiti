@@ -12,7 +12,7 @@ public class CibiPreferiti {
 		
 		System.out.println("my top food is : " + myFavoriteFoods[2]);
 		
-		System.out.println("my lees top food is : " + myFavoriteFoods[1]);
+		System.out.println("my lees top food is : " + myFavoriteFoods[myFavoriteFoods.length- 1]);
 		
 		int medIndex = myFavoriteFoods.length / 2; //2.5
 		boolean evenArray = myFavoriteFoods.length % 2 == 0; //resto 0.5: quindi dispari
